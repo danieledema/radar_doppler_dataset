@@ -1,0 +1,41 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'The Radar Doppler Dataset'
+theme = 'hugo-whisper-theme'
+
+[params]
+homepage_intro = """The Radar Doppler Dataset provides 25 km of data from a prototype Navtech CTS350-X Millimetre-Wave FMCW radar containing raw Doppler information, alongside LiDAR, camera and RTK GPS.
+The new Doppler configuration provides raw return discrepancies, which can be used to detect moving objects and estimate their velocity.
+We are excited to share this data with the community and we intend that this dataset will help accelerate research in this interesting modality."""
+
+homepage_image = '/images/zig-zag.jpg'
+
+[params.logo]
+standard  = "/images/ori-logo.png"
+
+# [[params.homepage_link]]
+# text = "Paper"
+# extlink = "https://arxiv.org/abs"
+# 
+# [[params.homepage_link]]
+# text = "Download"
+# rellink = "/download/"
+# 
+# [[params.homepage_link]]
+# text = "SDK"
+# extlink = "https://github.com/ori-mrg/robotcar-dataset-sdk"
+# 
+# [[params.homepage_content]]
+# title = 'Licence'
+# text = 'This work is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a> and is intended for non-commercial academic use.'
+# 
+# [[params.homepage_content]]
+# title = "Thanks"
+# text = 'We would like to thank our partners without whom this dataset would not have been possible: <a href="https://www.navtechradar.com/">Navtech Radar</a> for providing the radar hardware and <a href="https://www.oxa.tech/">Oxa</a> for providing the vehicle.'
+# 
+# [[params.homepage_content]]
+# title = "Terms"
+# text = 'Please, find here the <a href="https://ori.ox.ac.uk/terms-of-use/">Terms of Use</a> for the Radar Doppler Dataset, <a href="https://ori.ox.ac.uk/privacy-policy/">Privacy</a> and <a href="https://ori.ox.ac.uk/cookie-policy/">Cookie Policy</a>.'
+# 
+# [params.footer]
+# copyright_text = 'Copyright © 2023 <a href="http://ori.ox.ac.uk/">Oxford Robotics Institute</a>'
