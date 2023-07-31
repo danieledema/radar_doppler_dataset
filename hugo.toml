@@ -8,10 +8,10 @@ homepage_intro = """The Radar Doppler Dataset provides 25 km of data from a prot
 The new Doppler configuration provides raw return discrepancies, which can be used to detect moving objects and estimate their velocity.
 We are excited to share this data with the community and we intend that this dataset will help accelerate research in this interesting modality."""
 
-homepage_image = '/images/zig-zag.jpg'
+homepage_image = 'static/images/zig-zag.jpg'
 
 [params.logo]
-standard  = "/images/ori-logo.png"
+standard  = "/static/images/ori-logo.png"
 
 [[params.homepage_link]]
 text = "Paper"
