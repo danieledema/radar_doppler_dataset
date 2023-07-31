@@ -19,7 +19,7 @@ extlink = "https://arxiv.org/abs"
 
 [[params.homepage_link]]
 text = "Download"
-rellink = "/download/"
+rellink = "download/"
 
 [[params.homepage_link]]
 text = "SDK"
