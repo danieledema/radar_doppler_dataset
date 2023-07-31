@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://danieledema.github.io/radar_doppler_dataset/'
 languageCode = 'en-us'
 title = 'The Radar Doppler Dataset'
 theme = 'hugo-whisper-theme'
