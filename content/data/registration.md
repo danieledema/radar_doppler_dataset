@@ -2,10 +2,11 @@
 title: 'Registration'
 date: 2023-03-30
 weight: 1
+summary: "Use your academic email address to register and obtain the download link."
 ---
 
 
-Download is not available yet, please check out this website in a few days
+Registration is not available yet, please check out this website in a few days.
 
 
 ## Registration
@@ -48,17 +49,14 @@ If you are a member of the Oxford Robotics Institute please consider using the i
     </div>
   </div>
   <div class="form-group row">
-    <label for="message" class="col-4 col-form-label">Message</label>
+    <label for="message" class="col-4 col-form-label">Message (optional)</label>
     <div class="col-8">
-      <textarea id="message" name="message" cols="40" rows="10" required="required" class="form-control"></textarea>
+      <textarea id="message" name="message" cols="40" rows="10" class="form-control"></textarea>
     </div>
   </div>
   <div class="form-group row">
     <div class="offset-4 col-8">
       <button name="submit" type="submit" class="btn btn-primary">Send</button>
     </div>
-  </div>
-  <div class="text-center">
-    <p><small>(Powered by <a rel="nofollow" href="Un-static Forms">Un-static Forms</a>)</small></p>
   </div>
 </form>
