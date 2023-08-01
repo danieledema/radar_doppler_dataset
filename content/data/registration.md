@@ -23,7 +23,7 @@ When this is done you will be sent a welcome email and downloads will be enabled
 ###### Oxford Robotics Institute
 If you are a member of the Oxford Robotics Institute please consider using the internal mirror to avoid duplication.
 
-### Form
+### Registration Form
 
 <form method="post"> <!-- action="https://forms.un-static.com/forms/YOUR_ENDPOINT_REFERENCE"-->
   <div class="form-group row">
@@ -52,6 +52,24 @@ If you are a member of the Oxford Robotics Institute please consider using the i
     <label for="message" class="col-4 col-form-label">Message (optional)</label>
     <div class="col-8">
       <textarea id="message" name="message" cols="40" rows="10" class="form-control"></textarea>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label class="col-10 col-form-label" for="accept">
+        By checking, I agree that:
+        <ol>
+        <li>The data are only to be processed for the purposes of robotics research.</li>
+        <li>No attempt to profile or de-anonymise the individuals in the data set will be made.</li>
+        <li>The data must not be shared with any other parties.</li>
+        <li>The data should be stored in GDPR secure systems.</li>
+        <li>All efforts to avoid the data being leaked to a third party must be made.</li>
+        <li>We may require that you delete the data at any time.</li>
+        <li>We may require that you update the data from our servers at any time.</li>
+        </ol>
+        I agree to the terms and conditions and acknowledge that the data and files are distributed under the CC BY-NC-SA 4.0 license. I agree that the dataset is to be used for academic and non-commercial purposes. I understand that the owner (University of Oxford) reserves the right to withdraw access for any reason.
+    </label>
+    <div class="col-2">
+        <input type="checkbox" id="accept" required="required" name="accept" value="true">
     </div>
   </div>
   <div class="form-group row">
