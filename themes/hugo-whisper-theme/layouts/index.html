@@ -23,7 +23,7 @@
         <h1 class="title">{{ .Title | default .Site.Title }}</h1>
         <div class="content">
           {{ if .Content }}
-          {{ .Content }}
+          {{ .Content | safeHTML }}
           {{ else }}
           <p>{{ .Site.Params.homepage_intro }}</p>
           {{ end }}
