@@ -11,7 +11,7 @@ homepage_intro = """The Radar Doppler Dataset provides 25 km of data from a prot
 The new Doppler configuration provides raw return discrepancies, which can be used to detect moving objects and estimate their velocity.
 We are excited to share this data with the community and we intend that this dataset will help accelerate research in this interesting modality.
 
-the dataset is still under construction, please check back soon for updates.
+The dataset is still under construction, please check back soon for updates.
 """
 
 homepage_image = 'images/zig-zag.jpg'
