@@ -9,7 +9,10 @@ unsafe = true # Allow HTML in md files
 [params]
 homepage_intro = """The Radar Doppler Dataset provides 25 km of data from a prototype Navtech CTS350-X Millimetre-Wave FMCW radar containing raw Doppler information, alongside LiDAR, camera and RTK GPS.
 The new Doppler configuration provides raw return discrepancies, which can be used to detect moving objects and estimate their velocity.
-We are excited to share this data with the community and we intend that this dataset will help accelerate research in this interesting modality."""
+We are excited to share this data with the community and we intend that this dataset will help accelerate research in this interesting modality.
+
+the dataset is still under construction, please check back soon for updates.
+"""
 
 homepage_image = 'images/zig-zag.jpg'
 
