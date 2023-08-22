@@ -21,7 +21,7 @@ standard  = "images/ori-logo.png"
 
 [[params.homepage_link]]
 text = "Paper"
-extlink = "https://arxiv.org/abs"
+extlink = "https://arxiv.org/abs/2308.10597"
 
 [[params.homepage_link]]
 text = "Download"
